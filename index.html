@@ -12,28 +12,33 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div class="container-fluid">
-          <div class="row justify-content-end">
-              <div class="col-lg-">
-                <ul>
-                  <li class="nav-list-items">Home</li>
-                  <li class="nav-list-items">About</li>
-                  <li class="nav-list-items">Contact</li>
-                </ul>
-              </div>
-          </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm bg-primary">Column 1</div>
-          <div class="col-sm bg-success">Column 2</div>
-          <div class="col-sm bg-danger">Column 3</div>
+    <header class="container-fluid bg-dark text-light">
+      <nav class="row">
+        <ul class="col-md-12">
+          <li class="nav-list-items"><a href ="">Home</a></li>
+          <li class="nav-list-items"><a href ="">About</a></li>
+          <li class="nav-list-items"><a href ="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container content_wrapper">
+      <div class="row height_one-hundred">
+        <div class="col-md-6 bg-warning">
+         <p>Column 1</p>
+        </div>
+        <div class="col-md-6 bg-info">
+          <p>Column 2</p>
         </div>
       </div>
-    </header>
-    <footer bg->
+    </div>
 
+    <footer class="container-fluid bg-dark text-light">
+      <div class="row">
+        <div class="col-md-6 offset-3 bg-primary">
+          <p>Social Media</p>
+        </div>
+      </div>
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
