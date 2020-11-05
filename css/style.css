@@ -1,10 +1,16 @@
-.col-lg- {
+/* .col-lg- {
     float: right;
-}
+} */
 
-.nav-list-items {
+/* .nav-list-items {
     float: left;
     margin-right: 30px;
+} */
+
+.jumbotron {
+    height: 500px;
+    background: url(../img/pswb.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .content_wrapper {
